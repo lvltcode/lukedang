@@ -43,7 +43,7 @@ progress_entries (teacher-recorded)
 
 ## How AI changed the build process
 
-This project was built entirely through AI-assisted development — no manual code writing. The workflow:
+This project was built primarily through AI-assisted development, with manual coding for targeted fixes and custom logic. The workflow:
 
 **Planning (Claude):** Product requirements, data model design, RLS policy logic, user flow mapping, and implementation sequencing were all produced through structured conversation. Five planning documents were generated before any code was written: product brief, implementation plan, component spec, data model, and scope boundaries.
 

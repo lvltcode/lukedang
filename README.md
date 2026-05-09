@@ -15,7 +15,7 @@ I build early-stage SaaS products end-to-end — from problem scoping through ba
 
 ## How I work
 
-I don't write code manually. I use AI tools across the full build cycle:
+I work across HTML, CSS, JavaScript, Python, SQL, and bash — but I use AI tools to compress the build cycle from weeks to days:
 
 - **Planning & architecture:** Claude (requirements, data models, RLS policies, implementation sequencing)
 - **UI scaffolding:** Lovable (rapid React prototyping)
