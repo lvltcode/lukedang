@@ -1,5 +1,7 @@
 # Luke Dang
 
+> **Portfolio:** [craftmindship.com](https://craftmindship.com) — case studies, product analysis, and project breakdowns.
+
 I build operational software that turns messy workflows into working systems.
 
 I build early-stage SaaS products end-to-end — from problem scoping through backend architecture to production deployment — using AI tools to accelerate execution.
