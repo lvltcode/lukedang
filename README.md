@@ -28,6 +28,7 @@ Operational system for a national guide dog organization managing 200+ dogs acro
 → [Case Study](./casestudies/puppy-program-os.md) · [Live Prototype](https://puppy-prototype.vercel.app/) · Password: `ZuriLion2026`
 
 **Multi-Agent Development Workflow** — Structured system for coordinating Claude Code, ChatGPT, and Codex across planning, implementation, QA, and deployment. Used across multiple active product builds.
+→ [Case Study](./casestudies/multi-agent-workflow.md)
 
 ## How I work
 
@@ -48,6 +49,7 @@ I focus on turning ambiguous problems into structured systems and working softwa
 
 - [Building Cadence: A Music Education Platform as a Solo AI-Native Builder](./casestudies/cadence.md)
 - [Puppy Program OS: Building an Automated Foster Management Platform](./casestudies/puppy-program-os.md)
+- [Multi-Agent Development Workflow: Orchestrating AI Tools for Production Software](./casestudies/multi-agent-workflow.md)
 
 ## Contact
 
