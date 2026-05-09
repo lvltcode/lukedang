@@ -10,7 +10,7 @@ I build early-stage SaaS products end-to-end — from problem scoping through ba
 → [Case Study](./casestudies/cadence.md)
 
 **Puppy Program OS** — Automated foster management platform for a national guide dog organization. Daily logging, Postgres trigger-based behavioral alerts, multi-role access, 18-table RLS schema.
-→ [Case Study](./casestudies/puppy-program-os.md) · [Live Prototype](https://puppy-prototype.vercel.app/)
+→ [Case Study](./casestudies/puppy-program-os.md) · [Live Prototype](https://puppy-prototype.vercel.app/) · Password: `ZuriLion2026`
 
 **Multi-Agent Development Workflow** — Structured system for coordinating Claude Code, ChatGPT, and Codex across planning, implementation, QA, and deployment. Used across multiple active product builds.
 
