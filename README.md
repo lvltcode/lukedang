@@ -11,8 +11,6 @@ I build early-stage SaaS products end-to-end — from problem scoping through ba
 
 **Puppy Program OS** — Mobile-first foster engagement platform for Lions Foundation of Canada. Multi-role access, behavioral tracking, foster-to-staff communication.
 
-**Canadian Tax Workflow App** — Tax calculation and form handling tool. Full production deployment through GitHub → Vercel → Supabase.
-
 **Multi-Agent Development Workflow** — Structured system for coordinating Claude Code, ChatGPT, and Codex across planning, implementation, QA, and deployment. Used across multiple active product builds.
 
 ## How I work
