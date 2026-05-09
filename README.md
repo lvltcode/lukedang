@@ -9,7 +9,8 @@ I build early-stage SaaS products end-to-end — from problem scoping through ba
 **Cadence** — Private music education platform for Suzuki teachers and parents. Lesson continuity, scheduling, parent-guided practice. Built with React, Supabase (RLS), Vercel.
 → [Case Study](./casestudies/cadence.md)
 
-**Puppy Program OS** — Mobile-first foster engagement platform for a national guide dog organization. Multi-role access, behavioral tracking, foster-to-staff communication.
+**Puppy Program OS** — Automated foster management platform for a national guide dog organization. Daily logging, Postgres trigger-based behavioral alerts, multi-role access, 18-table RLS schema.
+→ [Case Study](./casestudies/puppy-program-os.md) · [Live Prototype](https://puppy-prototype.vercel.app/)
 
 **Multi-Agent Development Workflow** — Structured system for coordinating Claude Code, ChatGPT, and Codex across planning, implementation, QA, and deployment. Used across multiple active product builds.
 
@@ -33,6 +34,7 @@ I work across HTML, CSS, JavaScript, Python, SQL, and bash — but I use AI tool
 ## Writing
 
 - [Building Cadence: A Music Education Platform as a Solo AI-Native Builder](./casestudies/cadence.md)
+- [Puppy Program OS: Building an Automated Foster Management Platform](./casestudies/puppy-program-os.md)
 
 ## Contact
 
