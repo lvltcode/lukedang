@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" fill="none">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: currentColor; }
+    .title { font-size: 13px; font-weight: 600; }
+    .subtitle { font-size: 10px; opacity: 0.6; }
+    .label { font-size: 11px; font-weight: 500; }
+    .footer { font-size: 9px; opacity: 0.5; }
+    .section-label { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; opacity: 0.4; }
+    rect { stroke: gray; stroke-width: 1; fill: none; }
+    .container { stroke: gray; stroke-width: 1.5; stroke-dasharray: 6 3; fill: none; }
+    line, polyline { stroke: gray; stroke-width: 1; }
+    marker path { fill: gray; }
+  </style>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" />
+    </marker>
+  </defs>
+
+  <!-- Section: User Roles -->
+  <text x="28" y="24" class="section-label">User Roles</text>
+
+  <rect x="80" y="38" width="140" height="44" rx="4" />
+  <text x="150" y="57" class="title" text-anchor="middle">Teacher</text>
+  <text x="150" y="71" class="subtitle" text-anchor="middle">Full access</text>
+
+  <rect x="270" y="38" width="140" height="44" rx="4" />
+  <text x="340" y="57" class="title" text-anchor="middle">Parent</text>
+  <text x="340" y="71" class="subtitle" text-anchor="middle">Own children only</text>
+
+  <rect x="460" y="38" width="140" height="44" rx="4" />
+  <text x="530" y="57" class="title" text-anchor="middle">Student</text>
+  <text x="530" y="71" class="subtitle" text-anchor="middle">Data only</text>
+
+  <!-- Arrows: Users → Platform -->
+  <line x1="150" y1="82" x2="150" y2="120" marker-end="url(#arrow)" />
+  <line x1="340" y1="82" x2="340" y2="120" marker-end="url(#arrow)" />
+  <line x1="530" y1="82" x2="530" y2="120" marker-end="url(#arrow)" />
+
+  <!-- Section: Platform -->
+  <text x="28" y="118" class="section-label">Platform</text>
+
+  <rect x="60" y="126" width="560" height="100" rx="6" class="container" />
+  <text x="340" y="148" class="label" text-anchor="middle">Cadence Platform (React + TypeScript)</text>
+
+  <rect x="82" y="162" width="116" height="48" rx="3" />
+  <text x="140" y="181" class="title" text-anchor="middle">Lessons</text>
+  <text x="140" y="198" class="subtitle" text-anchor="middle">Notes, tracking</text>
+
+  <rect x="218" y="162" width="116" height="48" rx="3" />
+  <text x="276" y="181" class="title" text-anchor="middle">Scheduling</text>
+  <text x="276" y="198" class="subtitle" text-anchor="middle">Book, confirm</text>
+
+  <rect x="354" y="162" width="116" height="48" rx="3" />
+  <text x="412" y="181" class="title" text-anchor="middle">Practice</text>
+  <text x="412" y="198" class="subtitle" text-anchor="middle">Tasks, logs</text>
+
+  <rect x="490" y="162" width="116" height="48" rx="3" />
+  <text x="548" y="181" class="title" text-anchor="middle">Progress</text>
+  <text x="548" y="198" class="subtitle" text-anchor="middle">Parent view</text>
+
+  <!-- Label: RLS enforced -->
+  <text x="340" y="248" class="label" text-anchor="middle" style="opacity:0.7; font-style:italic;">Supabase RLS enforced</text>
+
+  <!-- Arrows: Platform → Backend -->
+  <line x1="240" y1="226" x2="240" y2="272" marker-end="url(#arrow)" />
+  <line x1="440" y1="226" x2="440" y2="272" marker-end="url(#arrow)" />
+
+  <!-- Section: Backend -->
+  <text x="28" y="272" class="section-label">Backend</text>
+
+  <rect x="100" y="280" width="220" height="52" rx="4" />
+  <text x="210" y="302" class="title" text-anchor="middle">Supabase</text>
+  <text x="210" y="318" class="subtitle" text-anchor="middle">PostgreSQL + RLS + Auth</text>
+
+  <rect x="360" y="280" width="220" height="52" rx="4" />
+  <text x="470" y="302" class="title" text-anchor="middle">Edge Functions</text>
+  <text x="470" y="318" class="subtitle" text-anchor="middle">Business logic</text>
+
+  <!-- Arrows: Backend → Deploy -->
+  <line x1="210" y1="332" x2="210" y2="378" marker-end="url(#arrow)" />
+  <line x1="470" y1="332" x2="470" y2="378" marker-end="url(#arrow)" />
+
+  <!-- Section: Deploy -->
+  <text x="28" y="378" class="section-label">Deploy</text>
+
+  <rect x="100" y="386" width="140" height="48" rx="4" />
+  <text x="170" y="407" class="title" text-anchor="middle">GitHub</text>
+  <text x="170" y="421" class="subtitle" text-anchor="middle">Source control</text>
+
+  <line x1="240" y1="410" x2="270" y2="410" marker-end="url(#arrow)" />
+
+  <rect x="270" y="386" width="140" height="48" rx="4" />
+  <text x="340" y="407" class="title" text-anchor="middle">Vercel</text>
+  <text x="340" y="421" class="subtitle" text-anchor="middle">Hosting + CI/CD</text>
+
+  <line x1="410" y1="410" x2="440" y2="410" marker-end="url(#arrow)" />
+
+  <rect x="440" y="386" width="140" height="48" rx="4" />
+  <text x="510" y="407" class="title" text-anchor="middle">Playwright QA</text>
+  <text x="510" y="421" class="subtitle" text-anchor="middle">End-to-end tests</text>
+
+  <!-- Footer -->
+  <text x="340" y="476" class="footer" text-anchor="middle">Three-role access: teacher sees all students · parent sees own children · RLS enforced at DB level</text>
+</svg>
