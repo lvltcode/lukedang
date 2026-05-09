@@ -1,31 +1,44 @@
 # Luke Dang
 
-Product builder focused on operational software, workflow systems, and AI-native development.
+I build operational software that turns messy workflows into working systems.
 
-I build early-stage SaaS products end-to-end — from problem scoping through backend architecture to production deployment — using AI tools as force multipliers rather than novelty features.
+I build early-stage SaaS products end-to-end — from problem scoping through backend architecture to production deployment — using AI tools to accelerate execution.
 
-## What I build
+## Shipped Products
 
-**Cadence** — Private music education platform for Suzuki teachers and parents. Lesson continuity, scheduling, parent-guided practice. Built with React, Supabase (RLS), Vercel.
+**Cadence — Private music education platform**
+
+Real-world platform for Suzuki teachers and parents. Handles lesson continuity, scheduling, and parent-guided practice.
+
+* Structured weekly lesson + practice workflows with parent-safe access
+* Role-based system (teachers / parents / admins) using Supabase RLS
+* Built full system across frontend, backend, and deployment
+
+→ Reduces teacher admin overhead and removes repeated parent instructions
 → [Case Study](./casestudies/cadence.md) · [Prototype](https://cadence-prototype-psi.vercel.app) · [Production](https://cadence-osa.com)
 
-**Puppy Program OS** — Automated foster management platform for a national guide dog organization. Daily logging, Postgres trigger-based behavioral alerts, multi-role access, 18-table RLS schema.
+**Puppy Program OS** — Foster Engagement platform
+Operational system for a national guide dog organization managing 200+ dogs across breeding, training, and placement.
+
+* Multi-role system with structured daily logging and internal dashboards
+* PostgreSQL triggers for behavioral alerts and workflow automation
+* Designed for non-technical foster users with mobile-first flows
+
+→ Simplifies coordination between foster families and program staff
 → [Case Study](./casestudies/puppy-program-os.md) · [Live Prototype](https://puppy-prototype.vercel.app/) · Password: `ZuriLion2026`
 
 **Multi-Agent Development Workflow** — Structured system for coordinating Claude Code, ChatGPT, and Codex across planning, implementation, QA, and deployment. Used across multiple active product builds.
 
 ## How I work
 
-I work across HTML, CSS, JavaScript, Python, SQL, and bash — but I use AI tools to compress the build cycle from weeks to days:
+I ship full products end-to-end, including frontend, backend, and deployment:
 
-- **Planning & architecture:** Claude (requirements, data models, RLS policies, implementation sequencing)
-- **UI scaffolding:** Lovable (rapid React prototyping)
-- **Precision development:** Claude Code (multi-file reasoning, refactoring) + Codex (isolated logic)
-- **Backend:** Supabase Edge Functions, PostgreSQL, Row-Level Security
-- **QA:** Playwright end-to-end testing
-- **Deployment:** Vercel via GitHub
+- **Planning & architecture:** structured requirements, data models, RLS policies, implementation sequencing
+- **Build:** React, Supabase & Edge Functions, backend logic, API Structure
+- **QA:** Playwright end-to-end testing and manual validation
+- **Deployment:** Vercel pipelines
 
-80% planning in structured documents, 20% execution through AI tools. Every project starts with planning files before any code is generated.
+I focus on turning ambiguous problems into structured systems and working software.
 
 ## Stack
 
