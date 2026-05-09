@@ -7,7 +7,7 @@ I build early-stage SaaS products end-to-end — from problem scoping through ba
 ## What I build
 
 **Cadence** — Private music education platform for Suzuki teachers and parents. Lesson continuity, scheduling, parent-guided practice. Built with React, Supabase (RLS), Vercel.
-→ [Case Study](./casestudies/cadence.md)
+→ [Case Study](./casestudies/cadence.md) · [Prototype](https://cadence-prototype-psi.vercel.app) · [Production](https://cadence-osa.com)
 
 **Puppy Program OS** — Automated foster management platform for a national guide dog organization. Daily logging, Postgres trigger-based behavioral alerts, multi-role access, 18-table RLS schema.
 → [Case Study](./casestudies/puppy-program-os.md) · [Live Prototype](https://puppy-prototype.vercel.app/) · Password: `ZuriLion2026`

@@ -1,5 +1,7 @@
 # Cadence: Building a Music Education Platform as a Solo AI-Native Builder
 
+> **Live prototype:** [cadence-prototype-psi.vercel.app](https://cadence-prototype-psi.vercel.app) · **Production app:** [cadence-osa.com](https://cadence-osa.com)
+
 ![Cadence Architecture](./assets/cadence-architecture.svg)
 
 ## The problem
@@ -67,7 +69,7 @@ This project was built primarily through AI-assisted development, with manual co
 
 ## Current status
 
-Cadence is in active development as my primary venture. The core lesson-practice-scheduling loop is functional. Next phase focuses on user validation with Suzuki teachers in Ontario before expanding scope.
+Cadence is in production at [cadence-osa.com](https://cadence-osa.com) with an interactive prototype at [cadence-prototype-psi.vercel.app](https://cadence-prototype-psi.vercel.app). The core lesson-practice-scheduling loop is functional. Next phase focuses on user validation with Suzuki teachers in Ontario before expanding scope.
 
 ---
 
