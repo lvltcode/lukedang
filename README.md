@@ -9,7 +9,7 @@ I build early-stage SaaS products end-to-end — from problem scoping through ba
 **Cadence** — Private music education platform for Suzuki teachers and parents. Lesson continuity, scheduling, parent-guided practice. Built with React, Supabase (RLS), Vercel.
 → [Case Study](./casestudies/cadence.md)
 
-**Puppy Program OS** — Mobile-first foster engagement platform for Lions Foundation of Canada. Multi-role access, behavioral tracking, foster-to-staff communication.
+**Puppy Program OS** — Mobile-first foster engagement platform for a national guide dog organization. Multi-role access, behavioral tracking, foster-to-staff communication.
 
 **Multi-Agent Development Workflow** — Structured system for coordinating Claude Code, ChatGPT, and Codex across planning, implementation, QA, and deployment. Used across multiple active product builds.
 
