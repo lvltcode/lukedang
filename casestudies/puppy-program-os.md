@@ -1,6 +1,6 @@
 # Puppy Program OS: Building an Automated Foster Management Platform
 
-[→ View the live prototype](https://puppy-prototype.vercel.app/)
+[→ View the live prototype](https://puppy-prototype.vercel.app/) · Access password: `ZuriLion2026`
 
 ## The problem
 
